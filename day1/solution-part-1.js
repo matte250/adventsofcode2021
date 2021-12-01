@@ -1,7 +1,7 @@
 const fs = require('fs');
 const readline = require('readline')
 
-const filesStream = fs.createReadStream('E:/Projects mate/adventsofcode2021/day1/input.txt');
+const filesStream = fs.createReadStream('./day1/input.txt');
 const rl = readline.createInterface({input: filesStream, crlfDelay: Infinity});
 
 let count = 0;
