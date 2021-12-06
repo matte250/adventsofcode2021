@@ -1,5 +1,4 @@
 var fs = require('fs');
-const { json } = require('stream/consumers');
 var array = fs.readFileSync('./day4/input.txt').toString().split("\r\n");
 
 const p1 = () => {
